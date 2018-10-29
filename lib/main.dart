@@ -57,8 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
       child: Container(
         decoration: BoxDecoration(
-          border: Border.all(color: Colors.grey),
-          borderRadius: BorderRadius.circular(5.0),
+          border: Border.all(color: Colors.blueGrey),
+          borderRadius: BorderRadius.circular(2.0),
         ),
         child: ListTile(
           title: Text(record.name),
